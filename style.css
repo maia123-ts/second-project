@@ -1,0 +1,107 @@
+
+
+body{
+    background-color: rgb(180, 240, 240) !important;
+}
+nav ul{
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: hsl(240, 17%, 45%);
+    display: table;
+	width: 100%;
+}
+nav li{
+    display: table-cell
+}
+li a {
+	display: block;
+	color: white !important;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: rgb(128, 141, 15);
+}
+header h1{
+   text-align: center;
+}
+article{
+    text-align:center;
+	margin:25px;
+    padding: 20px;
+	max-width: 90%;
+	font-size: 18px;
+	line-height: 32px;
+    
+}
+figure{
+    position:relative;
+    text-align:center;
+    border-bottom: 12px;
+    border-radius: 20px;
+    border-width: 12px;
+    border: 1px solid black ;
+    opacity: 0.8;    
+}
+img {
+   width: 400px;  
+   margin: 12px;
+   padding: 12px;
+}
+a[href*="london"]{
+    color: rgb(9, 218, 103);
+}
+a:hover{
+  color: rgb(13, 70, 156);
+}
+#Economy {
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: rgb(138, 138, 247);
+    display: table;
+	width: 100%;
+    text-align: left;
+}
+#Economy p {
+        display: block;
+        color: white !important;
+        text-align: center;
+        padding: 30px 30px;
+        text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight:bolder;
+       
+      text-align: center;
+   
+}
+
+#Education{
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: rgb(138, 138, 247);
+    display: table;
+	width: 100%;
+    text-align: left;
+}
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -100px;
+	background-color:hsl(240, 17%, 45%);
+}
+
+footer p {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
